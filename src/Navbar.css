@@ -1,0 +1,111 @@
+
+.container {
+  max-width: 100%;
+  padding: 0 2rem; /* Add padding on both sides equally */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #c3f3d6;
+  height: 80px;
+}
+
+/* Logo + text wrapper */
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #000;
+  padding-left: 1rem; /* Added left padding to shift logo slightly in */
+}
+
+/* Logo image */
+.logo-img {
+  height: 180px;
+  width: 100px;
+  margin-right: 10px;
+  object-fit: contain;
+}
+
+/* Brand text styling */
+.navbar-brand-text {
+  font-size: 1.6rem;
+  font-weight: bold;
+  font-family: 'Segoe UI', sans-serif;
+  color: green;
+  letter-spacing: 0.5px;
+}
+
+/* Navbar links */
+.nav-link {
+  font-weight: 500;
+  margin-left: 4rem;
+  color: #333;
+  transition: color 0.2s ease;
+  margin-left: 3rem;
+  
+}
+
+.nav-link:hover {
+  color: purple;
+  
+}
+
+/* Login button styled like link */
+.nav-link1{
+  background-color: purple;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 6px 12px;
+  transition: background-color 0.3s ease;
+  
+}
+
+.nav-link1:hover {
+  background-color: #5e0b8c; /* Darker shade of purple on hover */
+}
+/* Responsive styles */
+@media (max-width: 768px) {
+  .container {
+    flex-wrap: wrap;
+    height: auto;
+  }
+
+  .logo-img {
+    height: 45px;
+  }
+
+  .navbar-brand-text {
+    font-size: 1.2rem;
+  }
+
+  .navbar-collapse {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .navbar-nav {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .nav-link {
+    margin: 0;
+  }
+
+  .ms-auto {
+    margin-left: auto;
+    margin-top: 10px;
+  }
+
+  .nav-link1 {
+    display: block;
+    margin: 10px auto;
+  }
+}

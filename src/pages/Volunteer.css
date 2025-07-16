@@ -1,0 +1,93 @@
+.volunteer-container {
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+  margin-top: 60px;
+}
+
+.volunteer-images {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+}
+
+.volunteer-images img {
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.txt {
+  font-size: 2rem;
+  color: green;
+  font-weight: 500;
+  margin-top: 10px;
+  margin-left: 15pc;
+  text-align: justify;
+}
+
+.volunteer-form-section h2,
+.volunteer-how-section h2,
+.existing-volunteers h2 {
+  text-align: center;
+  color: #2e7d32;
+  margin-bottom: 10px;
+  margin-top: 60px;
+}
+
+.volunteer-form-section p,
+.existing-volunteers p {
+  text-align: center;
+  color: #444;
+  margin-bottom: 30px;
+}
+
+.volunteer-form {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.volunteer-form input,
+.volunteer-form textarea {
+  padding: 12px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.volunteer-form button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 14px;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.volunteer-form button:hover {
+  background-color: #388e3c;
+}
+
+.volunteer-how-section ul {
+  max-width: 800px;
+  margin: 0 auto;
+  list-style-type: disc;
+  padding-left: 20px;
+  color: #555;
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+.existing-volunteers {
+  background-color: #fffde7;
+  padding: 30px;
+  margin-top: 50px;
+  border-radius: 10px;
+}

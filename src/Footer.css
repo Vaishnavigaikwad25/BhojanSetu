@@ -1,0 +1,29 @@
+.footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #696969;
+  padding: 40px 20px;
+  flex-wrap: wrap;
+  color: #333;
+  
+}
+
+.footer-column {
+  flex: 1;
+  min-width: 200px;
+  margin: 10px;
+  color: white;
+  font-weight: 400;
+  margin-left: 140px;
+}
+
+.footer-column h4 {
+  font-size: 1.7rem;
+  color: white;
+  margin-bottom: 15px;
+}
+
+.footer-column p {
+  margin: 6px 0;
+  font-size: 0.95rem;
+}
